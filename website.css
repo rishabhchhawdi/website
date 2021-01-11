@@ -1,5 +1,5 @@
 .textDecoration {
-  font-size: 22px;
+  font-size: 18px;
   color: #131313;
 }
 .subtextDecoration {
@@ -10,7 +10,7 @@
   letter-spacing: 1px;
   text-align: center;
 }
-.numDecorate {
+.numDecoration {
   font-weight: 800;
   font-family: "Fira Sans Condensed";
 }
