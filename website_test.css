@@ -1,0 +1,104 @@
+.textDecoration {
+  font-size: 18px;
+  color: #131313;
+}
+
+.subtextDecoration {
+  font-size: 35px;
+  color: #000;
+  font-weight: 800;
+  font-family: "Fira Sans Condensed";
+  letter-spacing: 1px;
+  text-align: center;
+}
+.numDecoration {
+  font-weight: 800;
+  font-family: "Fira Sans Condensed";
+}
+.addColor {
+  color: #34b6dd !important;
+}
+
+.flex-container {
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-cont {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.flex-item-right {
+  flex: 25%;
+}
+.flex-item-left {
+  flex: 25%;
+}
+
+.textDecorate2 {
+  text-align: left;
+}
+
+/*********media query********/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .flex-item {
+    flex: 50%;
+    box-shadow: 0px 15px 20px #00000014;
+    font-size: 30px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(223, 223, 223);
+    margin: 4px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .flex-item {
+    flex: 50%;
+    box-shadow: 0px 15px 20px #00000014;
+    font-size: 30px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(223, 223, 223);
+    margin: 4px;
+  }
+}
+
+/*
+    flex: 30% !important;
+    font-size: 30px;
+    padding-left: 35px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 20px #00000014;
+    margin: 15px;
+  }
+  .flex-item-left {
+    flex: 30% !important;
+    font-size: 30px;
+    padding-left: 35px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 20px #00000014;
+    margin: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .flex-item-right {
+    flex: 30% !important;
+    font-size: 30px;
+    padding-left: 35px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 20px #00000014;
+    margin: 10px;
+  }
+  .flex-item-left {
+    flex: 30% !important;
+    font-size: 30px;
+    padding-left: 35px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 20px #00000014;
+    margin: 10px;
+  }
+} */
